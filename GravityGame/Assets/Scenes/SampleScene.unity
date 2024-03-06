@@ -646,7 +646,7 @@ TrailRenderer:
   m_SortingLayerID: 1152103057
   m_SortingLayer: 2
   m_SortingOrder: -1
-  m_Time: 0.1
+  m_Time: 0.25
   m_PreviewTimeScale: 1
   m_Parameters:
     serializedVersion: 3
