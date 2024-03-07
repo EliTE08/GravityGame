@@ -24,7 +24,7 @@ public class PlayerController : MonoBehaviour
         float vert = Input.GetAxisRaw("Vertical");
         Debug.Log(vert);
         Move();
-        if(vert != 0 && isGrounded()){
+        if(vert > 0 && isGrounded()){
             Jump();
         }
         if(Input.GetButtonDown("Jump")){
