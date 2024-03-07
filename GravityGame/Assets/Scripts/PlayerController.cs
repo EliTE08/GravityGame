@@ -21,12 +21,11 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        float vert = Input.GetAxisRaw("Vertical");
-        Debug.Log(vert);
+        //float vert = Input.GetAxisRaw("Vertical");
         Move();
-        if(vert > 0 && isGrounded()){
-            Jump();
-        }
+        //if(vert != 0 && isGrounded()){
+        //    Jump();
+        //}
         if(Input.GetButtonDown("Jump")){
             Flip();
         }
@@ -39,11 +38,9 @@ public class PlayerController : MonoBehaviour
 
     }
 
-    private void Jump(){
-
-        rb.velocity = new Vector2(rb.velocity.x, jumpForce*Time.deltaTime);
-
-    }
+    //private void Jump(){
+    //    rb.velocity = new Vector2(rb.velocity.x, jumpForce*Time.deltaTime);
+    //}
 
     private void Flip(){
         
