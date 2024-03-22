@@ -376,18 +376,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.008196831, y: 0.004098356}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.6875, y: 2.0625}
+    oldSize: {x: 1.375, y: 1.9375}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.2950764, y: 1.8114618}
   m_EdgeRadius: 0
 --- !u!212 &185333953
 SpriteRenderer:
@@ -470,11 +470,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 350
   jumpForce: 500
+  isAttacking: 0
+  attackDuration: 2
+  attackTimer: 0
   boxSize: {x: 1, y: 1, z: 0}
   maxDistance: 0.04
   layerMask:
     serializedVersion: 2
     m_Bits: 8
+  flipCount: 0
 --- !u!96 &185333956
 TrailRenderer:
   serializedVersion: 3
